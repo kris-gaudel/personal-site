@@ -4,20 +4,23 @@ import GetInTouch from './components/GetInTouch';
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-    top: 0;
-    left: 0;
-    width: "100%";
-    height: "100%";
+  overflow-x: hidden;
+`;
+
+const AppWrapper = styled.div`
+  height: 100vh;
+  width: 100vw;
+  position: relative;
 `;
 
 const App = () => {
   return (
-    <div className='app'>
+    <AppWrapper>
       <ParticleBackground />
       <Wrapper>
           <GetInTouch/>
       </Wrapper>
-    </div>
+    </AppWrapper>
   );
 }
 
