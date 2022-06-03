@@ -12,11 +12,11 @@ const ParticleBackground = () => {
     return (
         <>
         <Wrapper>
-        <Particles
-            options={particlesOptions}
-            width="100wh"
-            height="100vh"
-        />
+            <Particles
+                options={particlesOptions}
+                width="100wh"
+                height="100vh"
+            />
         </Wrapper>
         </>
     );

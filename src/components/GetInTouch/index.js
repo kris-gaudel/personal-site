@@ -7,7 +7,7 @@ import { faEnvelope, faFileAlt } from "@fortawesome/free-solid-svg-icons";
 
 import { smallTabletMQ } from "../../breakpoints";
 
-import resume from "/Users/kristofergaudel/Desktop/kris-gaudel/src/Kristofer_Gaudel_Resume_2022.pdf";
+import resume from "/Users/kristofergaudel/Desktop/personal-site/src/Gaudel_Kristofer_June_2022.pdf";
 
 
 const CenterWrapper = styled.div`
@@ -70,22 +70,18 @@ const GetInTouch = () => {
                     Hi there, <br/>
                     I'm Kris
                 </Header>
-                
                 <EducationText>
                     CS/BBA @ UWaterloo and WLU
                 </EducationText>
-
                 <DescriptionText>
                 I am a software developer in Toronto, Canada passionate about front-end and full-stack development. Feel free to reach out, I would love to chat!
                 </DescriptionText>
-
                 <ButtonsWrapper>
                     <SocialButton icon={faGithub} link="https://github.com/kris-gaudel" size="4x"/>
                     <SocialButton icon={faLinkedinIn} link="https://www.linkedin.com/in/kristofer-gaudel/" size="4x"/>
                     <SocialButton icon={faEnvelope} link="mailto:kgaudel@uwaterloo.ca" size="4x"/>
                     <SocialButton icon={faFileAlt} link={resume} size="4x"/>
                 </ButtonsWrapper>
-
             </CenterWrapper>
         </>
     );

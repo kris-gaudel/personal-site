@@ -17,9 +17,9 @@ const App = () => {
   return (
     <AppWrapper>
       <ParticleBackground />
-      <Wrapper>
-          <GetInTouch/>
-      </Wrapper>
+        <Wrapper>
+            <GetInTouch/>
+        </Wrapper>
     </AppWrapper>
   );
 }

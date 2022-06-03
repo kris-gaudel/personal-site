@@ -9,7 +9,7 @@ const SocialButton= ({icon, link, size}) => {
     return (
         <ButtonBase>
              <a href={link}>
-             <FontAwesomeIcon  opacity={1} color="#E2E6EB"  size={size} icon={icon} />
+                <FontAwesomeIcon  opacity={1} color="#E2E6EB"  size={size} icon={icon} />
              </a>
         </ButtonBase>
     );
