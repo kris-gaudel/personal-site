@@ -7,7 +7,7 @@ import { faEnvelope, faFileAlt } from "@fortawesome/free-solid-svg-icons";
 
 import { smallTabletMQ } from "../../breakpoints";
 
-import resume from "/Users/kristofergaudel/Desktop/personal-site/src/Gaudel_Kristofer_June_2022.pdf";
+import resume from "src/Gaudel_Kristofer_June_2022.pdf";
 
 
 const CenterWrapper = styled.div`
