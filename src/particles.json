@@ -86,7 +86,7 @@
         "enable": true,
         "outMode": "out",
         "random": false,
-        "speed": 6,
+        "speed": 3,
         "straight": false
       },
       "number": {
@@ -114,7 +114,7 @@
         "animation": {
           "enable": false,
           "minimumValue": 0.1,
-          "speed": 40,
+          "speed": 5,
           "sync": false
         },
         "random": true,

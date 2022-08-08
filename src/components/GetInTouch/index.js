@@ -7,7 +7,7 @@ import { faEnvelope, faFileAlt } from "@fortawesome/free-solid-svg-icons";
 
 import { smallTabletMQ } from "../../breakpoints";
 
-import Gaudel_Kristofer_June_2022 from '../../assets/Gaudel_Kristofer_July_25_2022.pdf';
+import Gaudel_Kristofer_Aug_07_2022 from '../../assets/Gaudel_Kristofer_Aug_07_2022.pdf';
 
 
 const CenterWrapper = styled.div`
@@ -80,7 +80,7 @@ const GetInTouch = () => {
                     <SocialButton icon={faGithub} link="https://github.com/kris-gaudel" size="4x"/>
                     <SocialButton icon={faLinkedinIn} link="https://www.linkedin.com/in/kristofer-gaudel/" size="4x"/>
                     <SocialButton icon={faEnvelope} link="mailto:kgaudel@uwaterloo.ca" size="4x"/>
-                    <SocialButton icon={faFileAlt} link={Gaudel_Kristofer_June_2022} size="4x"/>
+                    <SocialButton icon={faFileAlt} link={Gaudel_Kristofer_Aug_07_2022} size="4x"/>
                 </ButtonsWrapper>
             </CenterWrapper>
         </>
